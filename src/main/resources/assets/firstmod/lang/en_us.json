@@ -5,5 +5,9 @@
   "item.firstmod.raw_citrine": "Raw Citrine",
   "item.firstmod.citrine": "Citrine",
 
+  "block.firstmod.citrine_block": "Citrine Block",
+  "block.firstmod.citrine_ore": "Citrine Ore",
+  "block.firstmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+
   "itemgroup.citrine": "New Stuff"
 }

@@ -1,6 +1,7 @@
 package net.theeveeye.firstmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.theeveeye.firstmod.block.ModBlocks;
 import net.theeveeye.firstmod.item.ModItemGroup;
 import net.theeveeye.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class FirstMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
