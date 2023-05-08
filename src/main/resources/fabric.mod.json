@@ -25,9 +25,7 @@
       "net.theeveeye.firstmod.FirstModClient"
     ]
   },
-  "mixins": [
-    "firstmod.mixins.json"
-  ],
+
 
   "depends": {
     "fabricloader": ">=0.14.19",
