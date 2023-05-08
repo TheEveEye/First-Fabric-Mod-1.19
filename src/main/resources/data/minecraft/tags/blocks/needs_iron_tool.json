@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "firstmod:citrine_ore",
-    "firstmod:deepslate_citrine_ore"
+    "firstmod:deepslate_citrine_ore",
+    "firstmod:citrine_block",
+    "firstmod:raw_citrine_block"
   ]
 }
