@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Block CITRINE_BLOCK = registerBlock("citrine_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.CITRINE);
 
+    public static final Block RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.CITRINE);
+
     public static final Block CITRINE_ORE = registerBlock("citrine_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(3, 6)), ModItemGroup.CITRINE);
